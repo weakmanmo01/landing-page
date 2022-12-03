@@ -3,19 +3,26 @@ body {
     margin:0;
     display:flex;
     flex-direction: column;
+    flex:auto;
+    
+
+}
+h1{
+   margin-right: 20px;
 }
 
 .header {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 50px;
+    padding-right:50px;
+    color: white;
 }
 
 h2{
     font-weight: 48px;
-    color: #f9faf8
+    color: white;
 }
 
 .headitems{
@@ -24,14 +31,16 @@ h2{
 }
 
 .content {
-    padding-left: 20px;
+    
     display:flex;
     flex-direction: row;
     gap: 20px;
+    color:white;
+    padding: 50px
 }
 
 .topbackground{
-    background-color: grey;
+    background-color: #1F2937;
     padding-bottom: 30px;
 
 }
@@ -47,11 +56,12 @@ h2{
 
 button{
     background-color: #3882f6;
-    border-radius: 18px;
+    border-radius: 10px;
     padding:7px;
     padding-right: 10px;
     padding-left:10px;
     color: white;
+    border-color: white ;
 }
 
 .bottombackground{
@@ -59,23 +69,27 @@ button{
     display:flex;
     justify-content: center;
     padding:0;
-    margin:0;
+    margin:20px;
     gap:20px;
     padding-top: 20px;
-    justify-content: row;
+    flex-wrap: wrap;
     
 }
 
 h2{
     display:flex;
     justify-content: center;
-    color:black
+    color:white;
+    font-size: 48px;
+    font-weight: bolder;
+
+
 }
 
 .cards{
     display:flex;
     flex-direction: column;
-    
+    margin: 20px;
 }
 
 .boxes{
@@ -99,7 +113,8 @@ h2{
     display:flex;
     padding: 10px;
     flex-direction: column;
-    width: 300px;
+    width: 600px;
+
 }
 
 #name{
@@ -112,14 +127,41 @@ h2{
 .quotez{
     display:flex;
     justify-content: center;
+    font-size:36px;
+
 }
 
 .boxblue{
     background-color: #3882f6;
+    width:700px ;
     display:flex;
-    min-width: 700px;
-    border-color: black;
-    border-radius: 2px;
-    border-style:solid;   
-    flex-direction: ; 
+    justify-content: space-between;
+    margin: 20px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+h3{
+    display:flex;
+    justify-content: center;
+    color:black;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.border{
+    display:flex;
+    justify-content: center;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color:white;
+    padding: 30px;
+
 }
